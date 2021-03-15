@@ -1,0 +1,26 @@
+.main-logo {
+  text-decoration: none;
+  color: var(--logo);
+  font-family: 'Raleway', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  display: inline-flex;
+  align-items: center;
+  margin-right: 93px;
+  @include animation($property, $duration, $function);
+  &:hover,
+  &:focus {
+    text-decoration: underline;
+    text-decoration-color: var(--hover);
+  }
+}
+
+span {
+  color: var(--hover);
+}
+
+.studio {
+  color: var(--main-white);
+}

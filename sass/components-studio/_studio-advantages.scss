@@ -1,0 +1,45 @@
+/* Advantages */
+
+.container {
+  width: 1200px;
+  padding: 94px 15px;
+  margin: 0px auto;
+}
+
+.advantage {
+  @include flex-center(center);
+  padding-left: 0;
+  padding-right: 0;
+
+  margin: 0px;
+
+  & svg {
+    display: inline-block;
+    height: 120px;
+    width: 270px;
+    background-color: var(--grey);
+    border-radius: 4px;
+  }
+
+  & h3 {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    text-transform: uppercase;
+  }
+
+  & p {
+    font-size: 14px;
+    color: var(--graphite);
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    max-width: 270px;
+    display: inline-block;
+    margin: 0px;
+  }
+}
