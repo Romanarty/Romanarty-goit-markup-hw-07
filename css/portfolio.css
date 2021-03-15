@@ -285,7 +285,7 @@ header {
   padding: 0px;
 }
 
-button {
+.button__item {
   background-color: var(--grey);
   font-size: 16px;
   font-style: normal;
@@ -300,8 +300,8 @@ button {
   margin-bottom: 0;
 }
 
-button:hover,
-button:focus {
+.button__item:hover,
+.button__item:focus {
   background-color: var(--hover);
   color: var(--main-white);
   cursor: pointer;
