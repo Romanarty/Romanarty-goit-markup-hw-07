@@ -1,7 +1,7 @@
 /* Team */
 
 .team__photo .social-links li {
-  @include animation($property, $duration, $function);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .team__photo .social-links svg {
@@ -49,7 +49,9 @@
 }
 .social-links {
   margin: 0 auto;
-  @include flex-between(space-between);
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 206px;
   padding-left: 0px;
 
@@ -62,7 +64,7 @@
 }
 
 .team__link {
-  @include animation($property, $duration, $function);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   display: flex;
   border-radius: 50%;
   width: 44px;

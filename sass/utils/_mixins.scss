@@ -1,9 +1,9 @@
-@mixin animation($property, $duration, $function) {
-  $property: null;
-  $duration: 250ms;
-  $function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-@include animation($property, $duration, $function);
+// @mixin animation($property: null, $duration, $function) {
+//   animation-name: $property;
+//   animation-duration: $duration;
+//   animation-timing-function: $function;
+// }
+// @include animation($property, 250ms, cubic-bezier(0.4, 0, 0.2, 1);
 
 @mixin flex-center($display, $justify-content, $align-items) {
   $display: flex;
@@ -18,11 +18,7 @@
   $justify-content: space-between;
   $align-items: center;
 }
-// @include flex-between(space-between);
-
-//  display: flex;
-//   justify-content: center;
-//   align-items: center;
+// @include flex-between(space-between)
 
 @mixin header-font($font) {
   font-family: Roboto;

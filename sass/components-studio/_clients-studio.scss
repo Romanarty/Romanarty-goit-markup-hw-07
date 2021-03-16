@@ -19,7 +19,7 @@
 
   border: 1px solid #afb1b8;
   color: var(--partners-icons);
-  @include animation($property, $duration, $function);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   border-radius: 4px 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
   &:hover,
