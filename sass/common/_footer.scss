@@ -5,11 +5,10 @@ footer {
 }
 
 .footer-container {
-  display: flex;
+  @include flex-between();
   margin: 0 auto;
   width: 1170px;
-  align-items: center;
-  justify-content: space-between;
+
   padding-top: 57px;
   padding-bottom: 57px;
 }
@@ -84,9 +83,9 @@ footer h3 {
 
 .social-links {
   padding-left: 0;
-  display: flex;
+  @include flex-between();
   margin: 0 auto;
-  justify-content: space-between;
+
   height: 44px;
   width: 206px;
 

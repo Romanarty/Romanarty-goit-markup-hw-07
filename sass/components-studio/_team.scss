@@ -10,11 +10,10 @@
 }
 
 .team {
-  display: flex;
-  justify-content: center;
+  @include flex-center();
   padding: 0px;
   margin: 0px;
-  text-align: center;
+
   align-items: center;
 }
 
@@ -49,9 +48,7 @@
 }
 .social-links {
   margin: 0 auto;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  @include flex-center();
   width: 206px;
   padding-left: 0px;
 

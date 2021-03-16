@@ -2,9 +2,7 @@
   color: var(--graphite);
   text-decoration: none;
   @include header-font();
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  @include flex-center();
   margin: 0px;
   width: 350px;
   height: 80px;

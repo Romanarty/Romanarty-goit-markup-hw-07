@@ -1,8 +1,5 @@
 .nav {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  justify-content: space-between;
+  @include flex-between();
   width: 294px;
   margin: 0;
   padding: 0;
