@@ -4,6 +4,12 @@
   width: 570px;
   height: 86px;
   align-items: flex-end;
+  @media (max-width: 1199px) {
+    display: block;
+    margin: auto;
+    width: 450px;
+    height: 156px;
+  }
 
   & > label {
     font-family: Roboto;
@@ -58,4 +64,16 @@
 
 .form__svg {
   margin-left: 10px;
+}
+.mobile-footer {
+  @media (max-width: 767px) {
+    display: block;
+  }
+  @media (min-width: 768px) {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    min-width: 593px;
+    margin: 60px 80px;
+  }
 }

@@ -1,0 +1,133 @@
+// Мобилка до 767px
+
+@media screen and (max-width: 767px) {
+  .mobile-container {
+    max-width: 480px;
+    margin: auto;
+  }
+  .mobile-nav {
+    display: none;
+  }
+
+  .button-menu {
+    margin: 0;
+    padding: 0;
+    display: block;
+    width: 40px;
+    height: 40px;
+  }
+
+  .hero {
+    background-image: url("../../images/banner/1xbanner.jpeg");
+    background-size: contain;
+    max-width: 480px;
+    background-size: contain;
+  }
+
+  .advantages {
+    display: flex;
+    flex-direction: column;
+    margin: 60px 15px;
+    max-width: 450px;
+    max-height: 994px;
+  }
+
+  .advantages li {
+    margin: 15px;
+    max-width: 480px;
+  }
+
+  .projects {
+    display: none;
+  }
+  .our-team {
+    max-width: 480px;
+    max-height: 2761px;
+  }
+
+  .team__photo {
+    min-width: 450px;
+    min-height: 622px;
+    margin: 15px;
+  }
+  .clients {
+    max-width: 450px;
+    max-height: 393px;
+  }
+  .client__link {
+    width: 210px;
+  }
+
+  .footer-container {
+    display: block;
+    margin: auto;
+  }
+}
+
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 2dppx) {
+  .hero {
+    background-image: url("../../images/banner/2xbanner@2x.jpeg");
+  }
+}
+
+// Планшет
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .mobile-container {
+    min-width: 768px;
+  }
+  .page-header {
+    display: flex;
+  }
+  .header-contacts {
+    display: block;
+  }
+
+  .hero {
+    background-image: url("../../images/banner/banner1x-tablet.jpeg");
+  }
+
+  .advantages {
+    display: flex;
+    flex-wrap: wrap;
+
+    & svg {
+      width: 354px;
+    }
+    & li {
+      margin: 15px;
+    }
+  }
+
+  .projects {
+    display: none;
+  }
+  .team__photo {
+    width: 354px;
+    height: 536px;
+    margin: 15px;
+  }
+  .clients {
+    max-width: 738px;
+    max-height: 273px;
+  }
+  .client__link {
+    width: 226px;
+  }
+
+  .footer-container {
+    display: block;
+    margin: auto;
+  }
+
+  .mobile-footer {
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+  }
+}
+
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 2dppx) {
+  .hero {
+    background-image: url("../../images/banner/banner2x-tablet@2x.jpeg");
+  }
+}
