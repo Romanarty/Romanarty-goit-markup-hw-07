@@ -11,6 +11,7 @@
     />
     <link rel="stylesheet" href="./css/modern-normalize.css" />
     <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./mobile.css" />
   </head>
   <body>
     <div class="mobile-container">
@@ -91,9 +92,11 @@
 
             <ul class="advantage">
               <li>
-                <svg>
-                  <use href="./svg/sprite.svg#icon-feature-1" />
-                </svg>
+                <div class="icon-box">
+                  <svg width="70px" height="70px">
+                    <use href="./svg/adv-svg-opt.svg#icon-antenna-1-1" />
+                  </svg>
+                </div>
 
                 <h3>ВНИМАНИЕ К ДЕТАЛЯМ</h3>
                 <p>
@@ -103,9 +106,11 @@
               </li>
 
               <li>
-                <svg>
-                  <use href="./svg/sprite.svg#icon-feature-2" />
-                </svg>
+                <div class="icon-box">
+                  <svg width="70px" height="70px">
+                    <use href="./svg/adv-svg-opt.svg#icon-astronaut-1-1" />
+                  </svg>
+                </div>
                 <h3>ПУНКТУАЛЬНОСТЬ</h3>
                 <p>
                   Задача организации, в особенности же рамки и место обучения
@@ -114,9 +119,11 @@
               </li>
 
               <li>
-                <svg>
-                  <use href="./svg/sprite.svg#icon-feature-3" />
-                </svg>
+                <div class="icon-box">
+                  <svg width="70px" height="70px">
+                    <use href="./svg/adv-svg-opt.svg#icon-clock-1-1" />
+                  </svg>
+                </div>
                 <h3>ПЛАНИРОВАНИЕ</h3>
                 <p>
                   Равным образом консультация с широким активом в значительной
@@ -125,9 +132,11 @@
               </li>
 
               <li>
-                <svg>
-                  <use href="./svg/sprite.svg#icon-feature-4" />
-                </svg>
+                <div class="icon-box">
+                  <svg width="70px" height="70px">
+                    <use href="./svg/adv-svg-opt.svg#icon-diagram-1-1" />
+                  </svg>
+                </div>
                 <h3>СОВРЕМЕННЫЕ ТЕХНОЛОГИИ</h3>
                 <p>
                   Значимость этих проблем настолько очевидна, что реализация
@@ -194,7 +203,6 @@
                 srcset="./images/studio/img1@2x.jpg"
                 src="./images/studio/img1.jpg"
                 alt="img1"
-                width="270"
               />
               <h3>Игорь Демьяненко</h3>
               <p class="team__text">Product Designer</p>
@@ -235,7 +243,6 @@
                 srcset="./images/studio/img2@2x.jpg"
                 src="./images/studio/img2.jpg"
                 alt="img2"
-                width="270"
               />
               <h3>Ольга Репина</h3>
               <p class="team__text">Frontend Developer</p>
@@ -276,7 +283,6 @@
                 srcset="./images/studio/img3@2x.jpg"
                 src="./images/studio/img3.jpg"
                 alt="img3"
-                width="270"
               />
               <h3>Николай Тарасов</h3>
               <p class="team__text">Marketing</p>
@@ -317,7 +323,6 @@
                 srcset="./images/studio/img4@2x.jpg"
                 src="./images/studio/img4.jpg"
                 alt="img4"
-                width="270"
               />
               <h3>Михаил Ермаков</h3>
               <p class="team__text">UI Designer</p>
@@ -475,7 +480,7 @@
           </div>
           <form>
             <div class="form__link">
-              <label> Подпишитесь на рассылку </label>
+              <label class="form__label">Подпишитесь на рассылку</label>
               <div class="form__input">
                 <input
                   name="signin"
@@ -483,13 +488,13 @@
                   class="footer-input"
                   placeholder="E-mail"
                 />
-                <button class="form__button" type="submit">
-                  Подписаться
-                  <svg class="form__svg" width="24px" height="24px">
-                    <use href="./svg/sprite-form.svg#icon-var-opt"></use>
-                  </svg>
-                </button>
               </div>
+              <button class="form__button" type="submit">
+                Подписаться
+                <svg class="form__svg" width="24px" height="24px">
+                  <use href="./svg/sprite-form.svg#icon-var-opt"></use>
+                </svg>
+              </button>
             </div>
           </form>
         </div>

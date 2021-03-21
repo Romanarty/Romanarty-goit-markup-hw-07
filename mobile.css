@@ -1,66 +1,251 @@
-// Мобилка до 767px
+/* Мобилка до 767px */
 
-@media screen and (max-width: 767px) {
-  .mobile-container {
-    max-width: 480px;
+@media (max-width: 767px) {
+  h1 {
+    font-family: Roboto;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 42px;
+    letter-spacing: 0.06em;
+    text-align: center;
+    display: block;
+    max-width: 360px;
+    max-height: 84px;
     margin: auto;
+    margin-bottom: 30px;
+  }
+
+  h2 {
+    font-family: Roboto;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 33px;
+    letter-spacing: 0.03em;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 30px;
+  }
+
+  h3 {
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    text-align: center;
+  }
+  p {
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    text-align: center;
+    color: #757575;
+  }
+
+  .mobile-container {
+    min-width: 480px;
+    margin: auto;
+  }
+
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
   }
   .mobile-nav {
     display: none;
   }
 
-  .button-menu {
-    margin: 0;
-    padding: 0;
+  .menu-button {
     display: block;
     width: 40px;
     height: 40px;
+    border: none;
+    background-color: #fff;
+    margin-left: auto;
+  }
+  .menu-button:hover,
+  .menu-button:focus {
+    fill: var(--hover);
   }
 
+  .menu-button .js-close-menu {
+    display: none;
+  }
+
+  .menu-button.is-open .js-close-menu {
+    display: block;
+  }
+  .menu-button.is-open .js-open-menu {
+    display: none;
+  }
+
+  /* Hero */
   .hero {
-    background-image: url("../../images/banner/1xbanner.jpeg");
+    background-image: linear-gradient(
+        to right,
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url("../../images/banner/1xbanner.jpeg");
     background-size: contain;
     max-width: 480px;
-    background-size: contain;
+    max-height: 400px;
+    padding: 118px 60px;
+    width: 100%;
   }
 
-  .advantages {
-    display: flex;
-    flex-direction: column;
-    margin: 60px 15px;
-    max-width: 450px;
-    max-height: 994px;
+  .container {
+    margin: auto;
+    min-width: 450px;
+    padding: 60px 15px;
   }
 
-  .advantages li {
+  /* Advantages */
+  .advantage li {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    max-width: 480px;
+    min-height: 226px;
+    margin: auto;
+    text-align: center;
+  }
+
+  .advantage h3 {
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+
+    text-transform: uppercase;
+  }
+
+  .advantages svg {
+    width: 100%;
+  }
+
+  .icon-box {
     margin: 15px;
-    max-width: 480px;
+    width: 450px;
+    padding: 25px 190px;
+    background-color: #f5f4fa;
+    display: block;
+    border-radius: 4px;
+  }
+
+  .advantage p {
+    font-size: 14px;
+    color: var(--graphite);
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    text-align: left;
   }
 
   .projects {
     display: none;
   }
+
+  /* Team */
   .our-team {
-    max-width: 480px;
-    max-height: 2761px;
+    background-color: #f5f4fa;
+    padding-bottom: 60px;
   }
 
   .team__photo {
     min-width: 450px;
     min-height: 622px;
-    margin: 15px;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+      0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+    background-color: var(--main-white);
   }
+
+  .team__link svg {
+    fill: #afb1b8;
+    margin: auto;
+  }
+
+  .team__link:hover svg {
+    fill: var(--main-white);
+  }
+
+  /* Clients */
+
   .clients {
-    max-width: 450px;
-    max-height: 393px;
+    margin: auto;
+    width: 480px;
   }
+
   .client__link {
+    margin: 15px;
     width: 210px;
   }
 
+  .clients__logo {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 210px;
+    height: 90px;
+    border: 1px solid #afb1b8;
+    color: var(--partners-icons);
+    border-radius: 4px 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  /* Footer */
   .footer-container {
-    display: block;
+    max-width: 480px;
+    margin: 60px auto;
+    padding: 0;
+  }
+
+  .footer-container h3 {
+    text-align: center;
+  }
+
+  .footer {
     margin: auto;
+  }
+  .form-input {
+    display: block;
+    min-height: 50px;
+  }
+
+  .join {
+    margin: 60px auto;
+  }
+
+  .join svg {
+    fill: var(--main-white);
+  }
+  .join h3 {
+    margin-bottom: 20px;
+  }
+
+  .form-input {
+    margin: auto;
+    width: 480px;
+  }
+  .form__button {
+    margin: auto;
+    margin-top: 20px;
+  }
+  .form__link {
+    text-align: center;
+    margin: auto;
+    margin-top: 60px;
   }
 }
 
@@ -70,59 +255,80 @@
   }
 }
 
-// Планшет
+/* Планшет */
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .mobile-container {
-    min-width: 768px;
+    max-width: 768px;
+    margin: auto;
   }
   .page-header {
     display: flex;
   }
   .header-contacts {
-    display: block;
+    flex-direction: column;
   }
 
   .hero {
-    background-image: url("../../images/banner/banner1x-tablet.jpeg");
+    background-image: url("./images/banner/2xbanner@2x.jpeg");
   }
 
   .advantages {
     display: flex;
     flex-wrap: wrap;
+  }
 
-    & svg {
-      width: 354px;
-    }
-    & li {
-      margin: 15px;
-    }
+  .advantages svg {
+    width: 100%;
+  }
+
+  .advantages li {
+    margin: 15px;
+    width: 354px;
+    background-color: #f5f4fa;
+    display: block;
+    border-radius: 4px;
   }
 
   .projects {
     display: none;
   }
+
   .team__photo {
     width: 354px;
     height: 536px;
     margin: 15px;
   }
+
   .clients {
     max-width: 738px;
     max-height: 273px;
   }
-  .client__link {
+
+  .clients__link {
     width: 226px;
   }
 
   .footer-container {
-    display: block;
     margin: auto;
   }
 
   .mobile-footer {
+    width: 600px;
     display: flex;
     margin: auto;
-    flex-direction: column;
+  }
+
+  .footer-input {
+    width: 450px;
+  }
+  .form__link {
+    text-align: center;
+    margin: auto;
+    margin-top: 60px;
+  }
+  .form__button {
+    margin: auto;
+    margin-top: 20px;
   }
 }
 

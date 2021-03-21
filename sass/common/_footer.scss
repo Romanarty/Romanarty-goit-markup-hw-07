@@ -10,15 +10,6 @@ footer {
   width: 1170px;
   padding-top: 57px;
   padding-bottom: 57px;
-  @media (max-width: 1199px) {
-    display: block;
-    margin: auto;
-    flex-direction: column;
-  }
-  @media (min-width: 1200px) {
-    display: flex;
-    margin: auto;
-  }
 }
 
 .footer-contacts {
