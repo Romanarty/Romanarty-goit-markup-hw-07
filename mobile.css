@@ -11,6 +11,11 @@
   .mobile-nav {
     display: none;
   }
+
+  .header-contacts {
+    display: none;
+  }
+
   .mobile-container {
     margin: auto;
     max-width: 480px;
@@ -19,11 +24,6 @@
   /* Мобильное меню */
 
   .mobile-nav.js-menu-container {
-    transform: translateX(100%);
-    transition: 250ms ease-in-out;
-  }
-
-  .mobile-nav.js-menu-container.is-open {
     position: fixed;
     top: 0;
     left: 0;
@@ -34,6 +34,11 @@
     z-index: 999;
     background-color: #fff;
     border: 1px solid #757575;
+    transform: translateX(100%);
+    transition: transform 250ms ease-in-out;
+  }
+
+  .mobile-nav.js-menu-container.is-open {
     transform: translateX(0);
   }
 
@@ -54,10 +59,7 @@
     background-color: #fff;
     margin-left: auto;
   }
-  .menu-button.js-close-menu {
-    display: flex;
-    margin-left: auto;
-  }
+
   .menu-button:hover {
     fill: var(--hover);
   }

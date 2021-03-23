@@ -8,31 +8,36 @@
     position: relative;
   }
 
+  .header {
+    display: none;
+  }
+  .header-contacts {
+    display: none;
+  }
+
   .mobile-container {
     margin: auto;
     max-width: 480px;
   }
+
   /* Мобильное меню */
 
   .mobile-nav.js-menu-container {
-    transform: translateX(100%);
-    transition: 250ms ease-in-out;
-  }
-
-  .mobile-nav.js-menu-container.is-open {
     position: fixed;
     top: 0;
     left: 0;
     max-height: 796px;
     width: 100vw;
-    display: block;
     padding: 10px 40px;
     z-index: 999;
     background-color: #fff;
     border: 1px solid #757575;
+    transform: translateX(100%);
+    transition: transform 250ms ease-in-out;
+  }
+  .mobile-nav.js-menu-container.is-open {
     transform: translateX(0);
   }
-
   .menu-button.js-open-menu {
     display: flex;
     width: 40px;
@@ -50,10 +55,7 @@
     background-color: #fff;
     margin-left: auto;
   }
-  .menu-button.js-close-menu {
-    display: flex;
-    margin-left: auto;
-  }
+
   .menu-button:hover {
     fill: var(--hover);
   }
@@ -107,25 +109,6 @@
   }
   .mobile-nav__links li:not(:last-child) {
     padding-right: 10px;
-    border-right: 1px solid rgba(33, 33, 33, 0.2);
-  }
-  .mobile-nav {
-    display: block;
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 796px;
-    border: none;
-  }
-  .mobile-nav__links {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    color: var(--hover);
-    width: 357px;
-  }
-
-  .mobile-nav__links li:not(:last-child) {
     border-right: 1px solid rgba(33, 33, 33, 0.2);
   }
 
@@ -216,6 +199,9 @@
     max-width: 450px;
     max-height: 404px;
   }
+  .cardset__text {
+    max-height: 70px;
+  }
 
   .container__button {
     width: 362px;
@@ -262,10 +248,6 @@
     margin: auto;
     padding: 60px 0;
   }
-  .cardset__thumb {
-    width: 450px;
-    height: 404px;
-  }
 
   .cardset__thumb p {
     font-family: Roboto;
@@ -285,6 +267,7 @@
     line-height: 36px;
     letter-spacing: 0.06em;
     text-align: left;
+    padding: 0;
   }
 
   /* Footer */
@@ -341,8 +324,9 @@
   .form__input {
     padding-left: 15px;
     padding-right: 15px;
-
+    margin: auto;
     width: 450px;
+    margin-top: 20px;
   }
   .form__button {
     margin: auto;
@@ -370,9 +354,7 @@
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   header {
     display: flex;
-
     min-height: 80px;
-
     border-bottom: 1px solid #ececec;
   }
 
@@ -393,6 +375,9 @@
     max-width: 768px;
     margin-left: auto;
     margin-right: auto;
+  }
+  .mobile-nav.js-menu-container {
+    display: none;
   }
 
   .mobile-nav {
