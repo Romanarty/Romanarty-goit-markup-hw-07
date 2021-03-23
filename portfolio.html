@@ -18,8 +18,41 @@
       <header>
         <a href="./studio.html" class="main-logo"> <span>Web</span>Studio</a>
         <div class="header">
-          <div class="mobile-nav">
+          <button
+            type="button"
+            class="menu-button js-open-menu"
+            aria-expanded="false"
+            aria-controls="mobile-menu"
+          >
+            <svg
+              width="40px"
+              height="40px"
+              aria-label="Переключатель мобильного меню"
+            >
+              <use
+                href="./svg-mobile/sprite-mobile-menu.svg#icon-menu-nav"
+              ></use>
+            </svg>
+          </button>
+          <div class="mobile-nav js-menu-container" id="mobile-menu">
             <nav class="page-header">
+              <button
+                type="button"
+                class="menu-button js-close-menu"
+                aria-expanded="false"
+                aria-controls="mobile-menu"
+              >
+                <svg
+                  width="40px"
+                  height="40px"
+                  aria-label="Переключатель мобильного меню"
+                >
+                  <use
+                    class="js-close-menu"
+                    href="./svg-mobile/sprite-mobile-menu.svg#icon-close-nav"
+                  ></use>
+                </svg>
+              </button>
               <ul class="nav">
                 <li>
                   <a href="./studio.html" class="nav__link"> Студия </a>
@@ -53,29 +86,70 @@
                 </a>
               </li>
             </ul>
+            <ul class="mobile-nav__links">
+              <li>Instagram</li>
+              <li>Twitter</li>
+              <li>Facebook</li>
+              <li>LinkedIn</li>
+            </ul>
           </div>
         </div>
-        <button type="button" class="menu-button" aria-expanded="false">
-          <svg
-            width="40px"
-            height="40px"
-            aria-label="Переключатель мобильного меню"
-            mobile-modal-open
-          >
-            <use
-              class="js-open-menu"
-              href="./svg-mobile/sprite-mobile-menu.svg#icon-menu-nav"
-            ></use>
-            <use
-              class="js-close-menu"
-              href="./svg-mobile/sprite-mobile-menu.svg#icon-close-nav"
-              mobile-modal-close
-            ></use>
-          </svg>
-        </button>
       </header>
 
       <main class="container">
+        <div class="mobile-nav js-menu-container" id="mobile-menu">
+          <button
+            type="button"
+            class="menu-button js-close-menu"
+            aria-expanded="false"
+            aria-controls="mobile-menu"
+          >
+            <svg
+              width="40px"
+              height="40px"
+              aria-label="Переключатель мобильного меню"
+            >
+              <use
+                class="js-close-menu"
+                href="./svg-mobile/sprite-mobile-menu.svg#icon-close-nav"
+              ></use>
+            </svg>
+          </button>
+
+          <ul class="mobile-nav__list">
+            <li>
+              <a href="./studio.html" class="mobile-nav__item">
+                <span>Студия</span>
+              </a>
+            </li>
+            <li>
+              <a href="./portfolio.html" class="mobile-nav__item">Портфолио</a>
+            </li>
+            <li><a href="#" class="mobile-nav__item"> Контакты </a></li>
+          </ul>
+
+          <ul class="mobile-nav__contacts">
+            <li>
+              <a href="tel:+380961111111"> <span>+38 096 111 11 11</span></a>
+            </li>
+            <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+          </ul>
+
+          <ul class="mobile-nav__links">
+            <li>
+              <a href=""> <span> Instagram</span></a>
+            </li>
+            <li>
+              <a href=""> <span> Twitter</span></a>
+            </li>
+            <li>
+              <a href=""> <span>Facebook</span> </a>
+            </li>
+            <li>
+              <a href=""> <span> LinkedIn</span></a>
+            </li>
+          </ul>
+        </div>
         <section>
           <h1 class="visually-hidden">Наши проекты</h1>
 

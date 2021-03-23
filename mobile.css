@@ -5,11 +5,113 @@
     display: flex;
     justify-content: space-between;
     padding: 0px 15px;
+    position: relative;
   }
 
+  .mobile-nav {
+    display: none;
+  }
   .mobile-container {
     margin: auto;
     max-width: 480px;
+  }
+
+  /* Мобильное меню */
+
+  .mobile-nav.js-menu-container {
+    transform: translateX(100%);
+    transition: 250ms ease-in-out;
+  }
+
+  .mobile-nav.js-menu-container.is-open {
+    position: fixed;
+    top: 0;
+    left: 0;
+    max-height: 796px;
+    width: 100vw;
+    display: block;
+    padding: 10px 40px;
+    z-index: 999;
+    background-color: #fff;
+    border: 1px solid #757575;
+    transform: translateX(0);
+  }
+
+  .menu-button.js-open-menu {
+    display: flex;
+    width: 40px;
+    height: 40px;
+    border: none;
+    background-color: #fff;
+    margin-left: auto;
+    align-items: center;
+  }
+  .menu-button.js-close-menu {
+    display: flex;
+    width: 40px;
+    height: 40px;
+    border: none;
+    background-color: #fff;
+    margin-left: auto;
+  }
+  .menu-button.js-close-menu {
+    display: flex;
+    margin-left: auto;
+  }
+  .menu-button:hover {
+    fill: var(--hover);
+  }
+  .mobile-nav__item {
+    text-align: left;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 47px;
+    letter-spacing: 0.02em;
+    color: #212121;
+    margin-bottom: 32px;
+  }
+  .mobile-nav__list {
+    margin-bottom: 270px;
+  }
+
+  .mobile-nav__contacts li:first-child {
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    margin-bottom: 33px;
+  }
+  .mobile-nav__contacts {
+    margin-bottom: 65px;
+  }
+  .mobile-nav__contacts a {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #757575;
+  }
+
+  .mobile-nav__links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 357px;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0.02em;
+    text-align: left;
+  }
+  .mobile-nav__links li:not(:last-child) {
+    padding-right: 10px;
+    border-right: 1px solid rgba(33, 33, 33, 0.2);
   }
 
   h1 {
@@ -57,33 +159,6 @@
     letter-spacing: 0.03em;
     text-align: center;
     color: #757575;
-  }
-
-  .mobile-nav {
-    display: none;
-  }
-
-  .menu-button {
-    display: inline-block;
-    width: 40px;
-    height: 40px;
-    border: none;
-    background-color: #fff;
-  }
-  .menu-button:hover,
-  .menu-button:focus {
-    fill: var(--hover);
-  }
-
-  .menu-button .js-close-menu {
-    display: none;
-  }
-
-  .menu-button.is-open .js-close-menu {
-    display: block;
-  }
-  .menu-button.is-open .js-open-menu {
-    display: none;
   }
 
   /* Hero */
@@ -348,8 +423,8 @@ textarea {
     margin-right: auto;
   }
 
-  .mobile-nav {
-    display: flex;
+  .mobile-nav.js-menu-container {
+    display: none;
   }
 
   .nav {

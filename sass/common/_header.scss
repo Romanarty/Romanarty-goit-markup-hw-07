@@ -23,6 +23,10 @@ header {
   min-height: 80px;
 }
 
+.mobile-nav__links {
+  display: none;
+}
+
 @media screen and (max-width: 767px) {
   header {
     display: flex;

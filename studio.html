@@ -17,66 +17,113 @@
     <div class="mobile-container">
       <header>
         <a href="./studio.html" class="main-logo"> <span>Web</span>Studio</a>
-
-        <div class="header">
-          <div class="mobile-nav" mobile-modal>
-            <nav class="page-header">
-              <ul class="nav">
-                <li>
-                  <a href="./studio.html" class="nav__link--current-page">
-                    <span>Студия</span>
-                  </a>
-                </li>
-                <li>
-                  <a href="./portfolio.html" class="nav__link"> Портфолио </a>
-                </li>
-                <li><a href="link" class="nav__link"> Контакты </a></li>
-              </ul>
-            </nav>
-
-            <ul class="header-contacts">
-              <li>
-                <a href="mailto:info@devstudio.com" class="contacts-link__mail">
-                  <svg class="mail-icon" width="16" height="12">
-                    <use href="./svg/sprite.svg#icon-mail" />
-                  </svg>
-
-                  info@devstudio.com
-                </a>
-              </li>
-
-              <li>
-                <a href="tel:+380961111111" class="contacts-link__phone">
-                  <svg class="phone-icon" width="10" height="16">
-                    <use href="./svg/sprite.svg#icon-smartphone" />
-                  </svg>
-                  +38 096 111 11 11
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <button type="button" class="menu-button" aria-expanded="false">
+        <button
+          type="button"
+          class="menu-button js-open-menu"
+          aria-expanded="false"
+          aria-controls="mobile-menu"
+        >
           <svg
             width="40px"
             height="40px"
             aria-label="Переключатель мобильного меню"
-            mobile-modal-open
           >
-            <use
-              class="js-open-menu"
-              href="./svg-mobile/sprite-mobile-menu.svg#icon-menu-nav"
-            ></use>
-            <use
-              class="js-close-menu"
-              href="./svg-mobile/sprite-mobile-menu.svg#icon-close-nav"
-              mobile-modal-close
-            ></use>
+            <use href="./svg-mobile/sprite-mobile-menu.svg#icon-menu-nav"></use>
           </svg>
         </button>
+        <div class="header">
+          <nav class="page-header">
+            <ul class="nav">
+              <li>
+                <a href="./studio.html" class="nav__link--current-page">
+                  <span>Студия</span>
+                </a>
+              </li>
+              <li>
+                <a href="./portfolio.html" class="nav__link"> Портфолио </a>
+              </li>
+              <li><a href="#" class="nav__link"> Контакты </a></li>
+            </ul>
+          </nav>
+          <ul class="header-contacts">
+            <li>
+              <a href="mailto:info@devstudio.com" class="contacts-link__mail">
+                <svg class="mail-icon" width="16" height="12">
+                  <use href="./svg/sprite.svg#icon-mail" />
+                </svg>
+
+                info@devstudio.com
+              </a>
+            </li>
+
+            <li>
+              <a href="tel:+380961111111" class="contacts-link__phone">
+                <svg class="phone-icon" width="10" height="16">
+                  <use href="./svg/sprite.svg#icon-smartphone" />
+                </svg>
+                +38 096 111 11 11
+              </a>
+            </li>
+          </ul>
+        </div>
       </header>
 
       <main>
+        <div class="mobile-nav js-menu-container" id="mobile-menu">
+          <button
+            type="button"
+            class="menu-button js-close-menu"
+            aria-expanded="false"
+            aria-controls="mobile-menu"
+          >
+            <svg
+              width="40px"
+              height="40px"
+              aria-label="Переключатель мобильного меню"
+            >
+              <use
+                class="js-close-menu"
+                href="./svg-mobile/sprite-mobile-menu.svg#icon-close-nav"
+              ></use>
+            </svg>
+          </button>
+          <ul class="mobile-nav__list">
+            <li>
+              <a href="./studio.html" class="mobile-nav__item">
+                <span>Студия</span>
+              </a>
+            </li>
+            <li>
+              <a href="./portfolio.html" class="mobile-nav__item">
+                Портфолио
+              </a>
+            </li>
+            <li><a href="#" class="mobile-nav__item"> Контакты </a></li>
+          </ul>
+
+          <ul class="mobile-nav__contacts">
+            <li>
+              <a href="tel:+380961111111"> <span>+38 096 111 11 11</span></a>
+            </li>
+            <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+          </ul>
+
+          <ul class="mobile-nav__links">
+            <li>
+              <a href=""> <span> Instagram</span></a>
+            </li>
+            <li>
+              <a href=""> <span> Twitter</span></a>
+            </li>
+            <li>
+              <a href=""> <span>Facebook</span> </a>
+            </li>
+            <li>
+              <a href=""> <span> LinkedIn</span></a>
+            </li>
+          </ul>
+        </div>
+
         <!--Hero-->
         <section class="hero">
           <h1>ЭФФЕКТИВНЫЕ РЕШЕНИЯ ДЛЯ ВАШЕГО БИЗНЕСА</h1>
