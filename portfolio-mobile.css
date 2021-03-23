@@ -1,0 +1,492 @@
+/* Мобилка до 767px */
+
+@media (max-width: 767px) {
+  header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 15px;
+  }
+
+  .mobile-container {
+    margin: auto;
+    max-width: 480px;
+  }
+
+  .mobile-nav {
+    display: none;
+  }
+
+  h1 {
+    font-family: Roboto;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 42px;
+    letter-spacing: 0.06em;
+    text-align: center;
+    display: block;
+    max-width: 360px;
+    max-height: 84px;
+    margin: auto;
+    margin-bottom: 30px;
+  }
+
+  h2 {
+    font-family: Roboto;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 33px;
+    letter-spacing: 0.03em;
+    text-align: center;
+    padding-top: 0px;
+    padding-bottom: 30px;
+  }
+
+  h3 {
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    text-align: center;
+  }
+  p {
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    text-align: center;
+    color: #757575;
+  }
+
+  .menu-button {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border: none;
+    background-color: #fff;
+  }
+  .menu-button:hover,
+  .menu-button:focus {
+    fill: var(--hover);
+  }
+
+  .menu-button .js-close-menu {
+    display: none;
+  }
+
+  .menu-button.is-open .js-close-menu {
+    display: block;
+  }
+  .menu-button.is-open .js-open-menu {
+    display: none;
+  }
+
+  .social-links a {
+    margin: auto;
+  }
+
+  .social-links svg {
+    fill: #afb1b8;
+  }
+
+  .social-links li:hover svg {
+    fill: var(--main-white);
+  }
+
+  .cardset__thumb {
+    max-width: 450px;
+    max-height: 404px;
+  }
+
+  /* Container */
+
+  .container__button {
+    width: 362px;
+    margin-left: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: flex-start;
+    margin: 0px;
+  }
+
+  .button__item {
+    background-color: var(--grey);
+    margin-right: 4px;
+    margin-bottom: 4px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0.03em;
+    text-align: center;
+    border-radius: 4px;
+    border: none;
+    padding: 6px 22px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0.03em;
+  }
+
+  .overlay p {
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.03em;
+    text-align: left;
+  }
+
+  .container {
+    display: block;
+    flex-direction: column;
+    width: calc(100% / 1 - 30px);
+    margin: auto;
+    padding: 60px 0;
+  }
+  .cardset__thumb {
+    width: 450px;
+    height: 404px;
+  }
+
+  .cardset__thumb p {
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+    text-align: left;
+  }
+
+  .cardset__thumb h2 {
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0.06em;
+    text-align: left;
+  }
+
+  /* Footer */
+  .footer-container {
+    max-width: 480px;
+    margin: 60px auto;
+    padding: 0;
+  }
+
+  .footer .main-logo {
+    margin: auto;
+  }
+
+  .footer-container h3,
+  p {
+    text-align: center;
+    color: #fff;
+  }
+
+  .footer {
+    text-align: center;
+    margin: auto;
+  }
+
+  .address li {
+    display: inline-block;
+    margin: auto;
+  }
+
+  .address {
+    width: 232px;
+    margin: auto;
+    color: #fff;
+    margin-top: 20px;
+  }
+
+  .form-input {
+    display: block;
+    min-height: 50px;
+  }
+
+  .join {
+    margin: 60px auto;
+  }
+
+  .join svg {
+    fill: var(--main-white);
+  }
+  .join h3 {
+    margin-left: 30px;
+    margin-bottom: 20px;
+  }
+
+  .form__input {
+    padding-left: 15px;
+    padding-right: 15px;
+
+    width: 450px;
+  }
+  .form__button {
+    margin: auto;
+    margin-top: 20px;
+  }
+  .form__link {
+    text-align: center;
+    margin: auto;
+    margin-top: 60px;
+  }
+}
+
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 2dppx) {
+  .hero {
+    background-image: linear-gradient(
+        to right,
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url("./images/banner/2xbanner.jpeg");
+  }
+}
+
+/* Планшет */
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  header {
+    display: flex;
+
+    min-height: 80px;
+
+    border-bottom: 1px solid #ececec;
+  }
+
+  .main-logo {
+    margin: 0;
+  }
+  .header {
+    margin: 0;
+    padding: 0;
+    margin-left: auto;
+  }
+
+  .menu-button {
+    display: none;
+  }
+
+  .mobile-container {
+    max-width: 768px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .mobile-nav {
+    display: flex;
+    align-items: center;
+  }
+
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 84px;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    text-align: left;
+  }
+
+  .header-contacts {
+    display: block;
+    width: 138px;
+    padding: 20px 0;
+    align-items: center;
+  }
+
+  .contacts-link__phone,
+  .contacts-link__mail {
+    padding: 0px;
+    margin: 5px 0;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 14px;
+    letter-spacing: 0.02em;
+    margin-right: auto;
+  }
+
+  h1 {
+    display: block;
+    width: 360px;
+    height: 84px;
+    margin: auto;
+    margin-bottom: 30px;
+    align-items: center;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 42px;
+    letter-spacing: 0.06em;
+    text-align: center;
+  }
+  h2 {
+    font-family: Roboto;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 33px;
+    letter-spacing: 0.03em;
+    text-align: center;
+    padding-top: 0px;
+    padding-bottom: 30px;
+  }
+
+  h3 {
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    text-align: center;
+  }
+  p {
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color: #757575;
+  }
+
+  .container__button {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+  }
+
+  /* Cardset */
+
+  .overlay p {
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color: #fff;
+  }
+
+  .container {
+    display: flex;
+
+    margin: auto;
+    padding: 60px 0;
+    width: calc(100% / 1);
+  }
+
+  .cardset__thumb {
+    max-width: 354px;
+    max-height: 440px;
+    margin-right: 15px;
+    margin-left: 15px;
+  }
+  .cardset li:first-child .cardset__text {
+    margin-bottom: 56px;
+  }
+
+  .cardset__thumb p {
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+    text-align: left;
+  }
+
+  .cardset__thumb h2 {
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0.06em;
+    text-align: left;
+  }
+
+  .overlay {
+    width: 100%;
+    height: 100%;
+    bottom: 165px;
+  }
+
+  /* Footer */
+
+  .footer-container {
+    max-width: 768px;
+    margin: auto;
+  }
+
+  .join {
+    margin: 0;
+    text-align: center;
+  }
+
+  .link__item {
+    padding: 10px;
+  }
+
+  .mobile-footer {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 600px;
+    margin: auto;
+  }
+}
+.form__button {
+  margin: auto;
+  margin-top: 20px;
+}
+.form__link {
+  text-align: center;
+  margin: auto;
+  margin-top: 60px;
+  width: 480px;
+}
+.form__input {
+  padding: 0;
+}
+
+address {
+  text-align: center;
+  color: white;
+}
+
+.address p {
+  display: inline-block;
+  margin: auto;
+  color: white;
+  text-align: center;
+}
+
+@media (-webkit-min-device-pixel-ratio: 2) (min-resolution: 2dppx) {
+  .hero {
+    background-image: linear-gradient(
+        to right,
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url("../../images/banner/banner2x-tablet.jpeg");
+  }
+}

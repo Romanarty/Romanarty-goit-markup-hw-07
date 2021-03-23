@@ -1,10 +1,14 @@
 // Мобилка до 767px
 
-@media screen and (min-width: 480px) and (max-width: 767px) {
+@media screen and (max-width: 767px) {
   .mobile-container {
-    min-width: 480px;
-    margin: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 480px;
   }
+
   .mobile-nav {
     display: block;
   }
@@ -36,7 +40,6 @@
     max-width: 480px;
     background-size: contain;
   }
-
   h1 {
     font-family: Roboto;
     font-size: 26px;
@@ -45,41 +48,43 @@
     line-height: 42px;
     letter-spacing: 0.06em;
     text-align: center;
-  }
-
-  .advantage {
     display: block;
-    margin: 60px 15px;
-    max-width: 450px;
-
-    & li {
-      margin: 15px;
-      max-width: 480px;
-    }
-  }
-  .projects {
-    display: none;
-  }
-  .our-team {
-    max-width: 480px;
-  }
-
-  .team__photo {
-    min-width: 450px;
-    min-height: 622px;
-    margin: 15px;
-  }
-  .clients {
-    max-width: 450px;
-    max-height: 393px;
-  }
-  .client__link {
-    width: 210px;
-  }
-
-  .footer-container {
-    display: block;
+    max-width: 360px;
+    max-height: 84px;
     margin: auto;
+    margin-bottom: 30px;
+  }
+
+  h2 {
+    font-family: Roboto;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 33px;
+    letter-spacing: 0.03em;
+    text-align: center;
+    padding-top: 0px;
+    padding-bottom: 30px;
+  }
+
+  h3 {
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    text-align: center;
+  }
+  p {
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    text-align: center;
+    color: #757575;
   }
 }
 
@@ -89,64 +94,5 @@
   }
 }
 
-// Планшет
 @media screen and (min-width: 768px) and (max-width: 1199px) {
-  .mobile-container {
-    min-width: 768px;
-  }
-  .page-header {
-    display: flex;
-  }
-  .header-contacts {
-    display: block;
-  }
-
-  .hero {
-    background-image: url("../../images/banner/banner1x-tablet.jpeg");
-  }
-
-  .advantages {
-    display: flex;
-    flex-wrap: wrap;
-
-    & svg {
-      width: 354px;
-    }
-    & li {
-      margin: 15px;
-    }
-  }
-
-  .projects {
-    display: none;
-  }
-  .team__photo {
-    width: 354px;
-    height: 536px;
-    margin: 15px;
-  }
-  .clients {
-    max-width: 738px;
-    max-height: 273px;
-  }
-  .client__link {
-    width: 226px;
-  }
-
-  .footer-container {
-    display: block;
-    margin: auto;
-  }
-
-  .mobile-footer {
-    display: flex;
-    margin: auto;
-    flex-direction: column;
-  }
-}
-
-@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 2dppx) {
-  .hero {
-    background-image: url("../../images/banner/banner2x-tablet@2x.jpeg");
-  }
 }

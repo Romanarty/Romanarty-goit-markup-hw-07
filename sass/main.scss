@@ -1,6 +1,6 @@
 //Studio
 @import "./utils/variables";
-// @import "./utils/mixins";
+@import "./utils/mixins";
 @import "./common/base";
 @import "./common/logo";
 @import "./common/header";
@@ -10,8 +10,8 @@
 @import "./components-studio/projects";
 @import "./components-studio/team";
 @import "./components-studio/clients-studio";
-// @import "./common/footer";
-// @import "./common/footer-form";
+@import "./common/footer";
+@import "./common/footer-form";
 @import "./components-studio/modal";
 @import "./components-studio/hero-studio";
-// @import "./common/mobile-menu";
+@import "./common/mobile-menu";

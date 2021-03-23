@@ -17,29 +17,9 @@
     <div class="mobile-container">
       <header>
         <a href="./studio.html" class="main-logo"> <span>Web</span>Studio</a>
-        <button
-          type="button"
-          class="menu-button"
-          data-menu-button
-          aria-expanded="false"
-        >
-          <svg
-            width="40px"
-            height="40px"
-            aria-label="Переключатель мобильного меню"
-          >
-            <use
-              class="js-open-menu"
-              href="./svg-mobile/sprite-mobile-menu.svg#icon-menu-nav"
-            ></use>
-            <use
-              class="js-close-menu"
-              href="./svg-mobile/sprite-mobile-menu.svg#icon-close-nav"
-            ></use>
-          </svg>
-        </button>
+
         <div class="header">
-          <div class="mobile-nav">
+          <div class="mobile-nav" mobile-modal>
             <nav class="page-header">
               <ul class="nav">
                 <li>
@@ -76,6 +56,24 @@
             </ul>
           </div>
         </div>
+        <button type="button" class="menu-button" aria-expanded="false">
+          <svg
+            width="40px"
+            height="40px"
+            aria-label="Переключатель мобильного меню"
+            mobile-modal-open
+          >
+            <use
+              class="js-open-menu"
+              href="./svg-mobile/sprite-mobile-menu.svg#icon-menu-nav"
+            ></use>
+            <use
+              class="js-close-menu"
+              href="./svg-mobile/sprite-mobile-menu.svg#icon-close-nav"
+              mobile-modal-close
+            ></use>
+          </svg>
+        </button>
       </header>
 
       <main>
@@ -92,7 +90,7 @@
 
             <ul class="advantage">
               <li>
-                <div class="icon-box">
+                <div class="advantage__item">
                   <svg width="70px" height="70px">
                     <use href="./svg/adv-svg-opt.svg#icon-antenna-1-1" />
                   </svg>
@@ -106,7 +104,7 @@
               </li>
 
               <li>
-                <div class="icon-box">
+                <div class="advantage__item">
                   <svg width="70px" height="70px">
                     <use href="./svg/adv-svg-opt.svg#icon-astronaut-1-1" />
                   </svg>
@@ -119,7 +117,7 @@
               </li>
 
               <li>
-                <div class="icon-box">
+                <div class="advantage__item">
                   <svg width="70px" height="70px">
                     <use href="./svg/adv-svg-opt.svg#icon-clock-1-1" />
                   </svg>
@@ -132,7 +130,7 @@
               </li>
 
               <li>
-                <div class="icon-box">
+                <div class="advantage__item">
                   <svg width="70px" height="70px">
                     <use href="./svg/adv-svg-opt.svg#icon-diagram-1-1" />
                   </svg>
@@ -328,28 +326,28 @@
               <p class="team__text">UI Designer</p>
               <ul class="social-links">
                 <li>
-                  <a href="" class="team__link">
+                  <a href="">
                     <svg>
                       <use href="./svg/sprite.svg#icon-instagram-team" />
                     </svg>
                   </a>
                 </li>
                 <li>
-                  <a href="#" class="team__link">
+                  <a href="#">
                     <svg>
                       <use href="./svg/sprite.svg#icon-twitter-team" />
                     </svg>
                   </a>
                 </li>
                 <li>
-                  <a href="#" class="team__link">
+                  <a href="#">
                     <svg>
                       <use href="./svg/sprite.svg#icon-facebook-team" />
                     </svg>
                   </a>
                 </li>
                 <li>
-                  <a href="#" class="team__link">
+                  <a href="#">
                     <svg>
                       <use href="./svg/sprite.svg#icon-linkedin-team" />
                     </svg>
@@ -365,42 +363,42 @@
           <h2>Постоянные клиенты</h2>
 
           <ul class="clients__link">
-            <li>
+            <li class="clients__item">
               <a href="#" class="clients__logo">
                 <svg width="45" height="50">
                   <use href="./svg/sprite.svg#icon-logo-1" />
                 </svg>
               </a>
             </li>
-            <li>
+            <li class="clients__item">
               <a href="#" class="clients__logo">
                 <svg width="40" height="52">
                   <use href="./svg/sprite.svg#icon-logo-2" />
                 </svg>
               </a>
             </li>
-            <li>
+            <li class="clients__item">
               <a href="#" class="clients__logo">
                 <svg width="41" height="43">
                   <use href="./svg/sprite.svg#icon-logo-3" />
                 </svg>
               </a>
             </li>
-            <li>
+            <li class="clients__item">
               <a href="#" class="clients__logo">
                 <svg width="80" height="42">
                   <use href="./svg/sprite.svg#icon-logo-4" />
                 </svg>
               </a>
             </li>
-            <li>
+            <li class="clients__item">
               <a href="#" class="clients__logo">
                 <svg width="59" height="47">
                   <use href="./svg/sprite.svg#icon-logo-5" />
                 </svg>
               </a>
             </li>
-            <li>
+            <li class="clients__item">
               <a href="#" class="clients__logo">
                 <svg width="89" height="46">
                   <use href="./svg/sprite.svg#icon-logo-6" />
@@ -445,7 +443,7 @@
 
               <ul class="social-links">
                 <li>
-                  <a href="" class="team__link">
+                  <a href="">
                     <svg>
                       <use href="./svg/sprite.svg#icon-instagram-footer" />
                     </svg>
@@ -453,7 +451,7 @@
                 </li>
 
                 <li>
-                  <a href="" class="team__link">
+                  <a href="">
                     <svg>
                       <use href="./svg/sprite.svg#icon-twitter-footer" />
                     </svg>
@@ -461,7 +459,7 @@
                 </li>
 
                 <li>
-                  <a href="" class="team__link">
+                  <a href="">
                     <svg>
                       <use href="./svg/sprite.svg#icon-facebook-footer" />
                     </svg>
@@ -469,7 +467,7 @@
                 </li>
 
                 <li>
-                  <a href="" class="team__link">
+                  <a href="">
                     <svg>
                       <use href="./svg/sprite.svg#icon-linkedin-footer" />
                     </svg>
@@ -619,6 +617,7 @@
       </div>
 
       <script src="./js/modal.js"></script>
+      <script src="./js/mobile-menu.js"></script>
     </div>
   </body>
 </html>

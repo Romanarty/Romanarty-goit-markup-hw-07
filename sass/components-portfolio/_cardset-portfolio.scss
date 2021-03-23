@@ -7,8 +7,8 @@
 }
 .cardset__thumb {
   position: relative;
-  width: 370px;
-  height: 404px;
+  // width: 370px;
+  // height: 404px;
   overflow: hidden;
   margin-top: 30px;
   border: 1px solid;
@@ -18,21 +18,13 @@
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
       1px 4px 6px rgba(0, 0, 0, 0.16);
     cursor: pointer;
-    @media (max-width: 767px) {
-      width: 450px;
-      height: 404px;
-      @media (min-width: 768px) and (max-width: 1199px) {
-        width: 354px;
-        height: 440px;
-      }
-    }
   }
+}
 
-  &:hover .overlay,
-  &:focus .overlay {
-    transform: translateY(0);
-    opacity: 1;
-  }
+&:hover .overlay,
+&:focus .overlay {
+  transform: translateY(0);
+  opacity: 1;
 }
 
 .cardset__text {
@@ -45,7 +37,7 @@
   display: block;
   width: 100%;
   height: 100%;
-  bottom: 110px;
+
   transform: translateY(101%);
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   opacity: 0;
