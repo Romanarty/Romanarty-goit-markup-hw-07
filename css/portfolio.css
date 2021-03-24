@@ -64,30 +64,6 @@ ul {
   list-style: none;
 }
 
-h2 {
-  font-size: 36px;
-  margin: auto;
-  padding-bottom: 50px;
-  padding-top: 94px;
-  text-align: center;
-  font-weight: 700;
-  line-height: 42px;
-  letter-spacing: 0.03em;
-}
-
-h3 {
-  display: block;
-  font-size: 16px;
-  padding-left: 0;
-  margin-bottom: 10px;
-  margin-top: 30px;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 19px;
-  letter-spacing: 0.03em;
-  text-align: center;
-}
-
 .main-logo {
   text-decoration: none;
   color: var(--logo);
@@ -103,8 +79,6 @@ h3 {
   -ms-flex-align: center;
   align-items: center;
   margin-right: 93px;
-  -webkit-transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .main-logo:hover,
@@ -158,12 +132,21 @@ header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+<<<<<<< HEAD
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
+=======
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+>>>>>>> parent of e9bcdcd... hw-8
   width: 294px;
   margin: 0;
   padding: 0;
@@ -211,9 +194,36 @@ header {
 .header-contacts {
   color: var(--graphite);
   text-decoration: none;
-  font-family: Roboto;
   font-size: 14px;
-  font-style: normal;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+<<<<<<< HEAD
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+=======
+>>>>>>> parent of e9bcdcd... hw-8
+  margin: 0px;
+  width: 350px;
+  height: 80px;
+  padding: 0;
+}
+
+.contacts-link__mail {
+  color: var(--graphite);
+  text-decoration: none;
+  font-size: 14px;
   font-weight: 500;
   line-height: 16px;
   letter-spacing: 0.02em;
@@ -224,26 +234,11 @@ header {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  margin: 0px;
-  width: 350px;
-  height: 80px;
-  padding: 0;
-}
-
-.contacts-link__mail {
-  color: var(--graphite);
-  text-decoration: none;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+<<<<<<< HEAD
   -webkit-transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+=======
+>>>>>>> parent of e9bcdcd... hw-8
   padding: 32px 0px;
 }
 
@@ -255,14 +250,22 @@ header {
 .contacts-link__phone {
   color: var(--graphite);
   text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  text-align: left;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+<<<<<<< HEAD
   -webkit-transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+=======
+>>>>>>> parent of e9bcdcd... hw-8
   padding: 32px 0px;
 }
 
@@ -274,12 +277,15 @@ header {
 .header-contacts svg {
   margin-right: 10px;
   fill: currentColor;
-  -webkit-transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+<<<<<<< HEAD
 .header-contacts svg:hover,
 .header-contacts svg:focus {
+=======
+.header-contacts svg :hover,
+.header-contacts svg :focus {
+>>>>>>> parent of e9bcdcd... hw-8
   fill: currentColor;
 }
 
@@ -299,15 +305,23 @@ header {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+<<<<<<< HEAD
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
+=======
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+>>>>>>> parent of e9bcdcd... hw-8
   width: 611px;
+  align-items: center;
   margin-top: 0px;
   margin-bottom: 20px;
   padding: 0px;
 }
 
+<<<<<<< HEAD
 @media (max-width: 767px) {
   .container__button {
     width: 362px;
@@ -324,22 +338,21 @@ header {
   }
 }
 
+=======
+>>>>>>> parent of e9bcdcd... hw-8
 .button__item {
-  padding: 6px 22px;
   background-color: var(--grey);
-  border-radius: 4px;
-  border: none;
-  font-family: Roboto;
   font-size: 16px;
   font-style: normal;
+  text-align: center;
+  border-radius: 4px;
+  border: none;
+  padding: 6px 22px;
   font-weight: 500;
   line-height: 26px;
   letter-spacing: 0.03em;
-  text-align: center;
   margin-top: 0;
   margin-bottom: 0;
-  -webkit-transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .button__item:hover,
@@ -347,8 +360,11 @@ header {
   background-color: var(--hover);
   color: var(--main-white);
   cursor: pointer;
+<<<<<<< HEAD
   -webkit-box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
     0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+=======
+>>>>>>> parent of e9bcdcd... hw-8
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
 }
@@ -373,11 +389,12 @@ header {
   margin-top: 30px;
   border: 1px solid;
   border-color: #eeeeee;
-  -webkit-transition: -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+<<<<<<< HEAD
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1),
     -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+=======
+>>>>>>> parent of e9bcdcd... hw-8
 }
 
 .cardset__thumb:hover {
@@ -386,20 +403,6 @@ header {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
   cursor: pointer;
-}
-
-@media (max-width: 767px) {
-  .cardset__thumb:hover {
-    width: 450px;
-    height: 404px;
-  }
-}
-
-@media (max-width: 767px) and (min-width: 768px) and (max-width: 1199px) {
-  .cardset__thumb:hover {
-    width: 354px;
-    height: 440px;
-  }
 }
 
 .cardset__thumb:hover .overlay,
@@ -422,8 +425,11 @@ header {
   bottom: 110px;
   -webkit-transform: translateY(101%);
   transform: translateY(101%);
+<<<<<<< HEAD
   -webkit-transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+=======
+>>>>>>> parent of e9bcdcd... hw-8
   opacity: 0;
   padding: 173px 24px;
   background-color: var(--overlay);
@@ -471,18 +477,28 @@ footer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+<<<<<<< HEAD
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
+=======
+>>>>>>> parent of e9bcdcd... hw-8
   margin: 0 auto;
   width: 1170px;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   padding-top: 57px;
   padding-bottom: 57px;
 }
 
+<<<<<<< HEAD
 @media (max-width: 1199px) {
   .footer-container {
     display: block;
@@ -503,6 +519,8 @@ footer {
   }
 }
 
+=======
+>>>>>>> parent of e9bcdcd... hw-8
 .footer-contacts {
   padding: 0px;
   margin: 0px;
@@ -524,9 +542,13 @@ footer {
   font-weight: 400;
   line-height: 24px;
   letter-spacing: 0.03em;
+<<<<<<< HEAD
 
   -webkit-transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+=======
+  text-align: left;
+>>>>>>> parent of e9bcdcd... hw-8
 }
 
 .footer__contacts-link:focus,
@@ -555,12 +577,6 @@ footer {
   height: 80px;
 }
 
-@media (max-width: 767px) {
-  .join {
-    margin: 60px 137px;
-  }
-}
-
 footer h3 {
   text-transform: uppercase;
   color: var(--main-white);
@@ -583,13 +599,19 @@ footer h3 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+<<<<<<< HEAD
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
+=======
+>>>>>>> parent of e9bcdcd... hw-8
   margin: 0 auto;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   height: 44px;
   width: 206px;
 }
@@ -602,9 +624,7 @@ footer h3 {
   fill: var(--main-white);
 }
 
-.social-links li {
-  -webkit-transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+.link__item {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -615,8 +635,13 @@ footer h3 {
   margin: auto;
 }
 
+<<<<<<< HEAD
 .social-links li:hover,
 .social-links li:focus {
+=======
+.link__item:hover,
+.link__item:focus {
+>>>>>>> parent of e9bcdcd... hw-8
   background-color: var(--hover);
   fill: var(--main-white);
   cursor: pointer;
@@ -629,6 +654,7 @@ footer h3 {
   -webkit-box-align: end;
   -ms-flex-align: end;
   align-items: flex-end;
+<<<<<<< HEAD
 }
 
 @media (max-width: 1199px) {
@@ -638,6 +664,8 @@ footer h3 {
     width: 450px;
     height: 156px;
   }
+=======
+>>>>>>> parent of e9bcdcd... hw-8
 }
 
 .form__link > label {
@@ -736,7 +764,10 @@ footer h3 {
 
 .form__button {
   position: relative;
+  min-width: 200px;
+  height: 50px;
   padding: 10px 28px;
+<<<<<<< HEAD
   -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   display: -webkit-box;
@@ -745,15 +776,24 @@ footer h3 {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+=======
+>>>>>>> parent of e9bcdcd... hw-8
   background-color: var(--hover);
   color: var(--main-white);
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   cursor: pointer;
   border: none;
   border-radius: 4px;
-  min-width: 200px;
-  height: 50px;
+  font-weight: bold;
   font-size: 16px;
   line-height: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
 }
@@ -761,6 +801,7 @@ footer h3 {
 .form__svg {
   margin-left: 10px;
 }
+<<<<<<< HEAD
 
 @media (max-width: 767px) {
   .mobile-footer {
@@ -783,4 +824,6 @@ footer h3 {
     margin: 60px 80px;
   }
 }
+=======
+>>>>>>> parent of e9bcdcd... hw-8
 /*# sourceMappingURL=portfolio.css.map */
