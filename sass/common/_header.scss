@@ -27,38 +27,30 @@ header {
   display: none;
 }
 
-@media screen and (max-width: 767px) {
-  header {
-    display: flex;
-    justify-content: space-between;
-    padding: 0px 15px;
-  }
+.mobile-nav {
+  display: none;
+}
 
-  .mobile-nav {
-    display: none;
-  }
+.menu-button {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  border: none;
+  background-color: #fff;
+  margin-left: auto;
+}
+.menu-button:hover,
+.menu-button:focus {
+  fill: var(--hover);
+}
 
-  .menu-button {
-    display: inline-block;
-    width: 40px;
-    height: 40px;
-    border: none;
-    background-color: #fff;
-    margin-left: auto;
-  }
-  .menu-button:hover,
-  .menu-button:focus {
-    fill: var(--hover);
-  }
+.menu-button .js-close-menu {
+  display: none;
+}
 
-  .menu-button .js-close-menu {
-    display: none;
-  }
-
-  .menu-button.is-open .js-close-menu {
-    display: block;
-  }
-  .menu-button.is-open .js-open-menu {
-    display: none;
-  }
+.menu-button.is-open .js-close-menu {
+  display: block;
+}
+.menu-button.is-open .js-open-menu {
+  display: none;
 }

@@ -222,24 +222,15 @@ label p {
   padding: 10px 55px;
 }
 
-@media screen and (max-width: 1199px) {
-  .modalform {
-    padding: 40px;
-    padding-bottom: 0;
-    max-height: 609px;
-    max-width: 450px;
-  }
+.modalform__list {
+  display: block;
+  margin: 0 auto;
+  min-width: 370px;
+}
 
-  .modalform__list {
-    display: block;
-    margin: 0 auto;
-    min-width: 370px;
-  }
-
-  .modalform__h2 {
-    display: block;
-    max-width: 370px;
-    max-height: 60px;
-    margin: auto;
-  }
+.modalform__h2 {
+  display: block;
+  max-width: 370px;
+  max-height: 60px;
+  margin: auto;
 }

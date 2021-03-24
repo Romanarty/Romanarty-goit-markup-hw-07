@@ -60,8 +60,7 @@ footer {
   display: block;
   width: 206px;
   height: 80px;
-  @media (max-width: 767px) {
-    margin: 60px 137px;
+   
   }
 }
 
@@ -112,10 +111,7 @@ footer h3 {
     }
   }
 }
-@media screen and (max-width: 767px) {
-  .social-links a {
-    margin: auto;
-  }
+ 
 
   .social-links svg {
     fill: #afb1b8;
@@ -159,4 +155,4 @@ footer h3 {
     margin-left: 30px;
     margin-bottom: 20px;
   }
-}
+ 

@@ -554,7 +554,7 @@
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
-    width: 600px;
+    max-width: 600px;
     margin: auto;
   }
 }
@@ -592,5 +592,74 @@ address {
         rgba(47, 48, 58, 0.4)
       ),
       url("../../images/banner/banner2x-tablet.jpeg");
+  }
+}
+/* Desktop */
+@media (min-width: 1200px) {
+  header {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0px 15px;
+  }
+  .header {
+    margin: 0;
+    width: 900px;
+  }
+
+  .header-contacts li:first-child {
+    margin-right: 30px;
+  }
+
+  .mobile-nav.js-menu-container,
+  .menu-button {
+    display: none;
+  }
+
+  .button__item {
+    margin-right: 5px;
+  }
+
+  .cardset__thumb {
+    width: 370px;
+    height: 404px;
+  }
+
+  .cardset__text h2 {
+    padding-top: 0px;
+    text-align: left;
+  }
+
+  .mobile-footer,
+  .address {
+    margin: 0;
+    text-align: left;
+  }
+
+  .mobile-footer {
+    max-width: 500px;
+  }
+  form {
+    display: flex;
+  }
+
+  .form__input {
+    max-width: 358px;
+    margin-right: 0;
+  }
+
+  .form__input {
+    margin-top: 20px;
+    margin-right: 0;
+    display: flex;
+  }
+  .footer-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .form__button {
+    margin: 0;
   }
 }
