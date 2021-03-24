@@ -133,12 +133,21 @@ header {
   display: -ms-flexbox;
   display: flex;
 <<<<<<< HEAD
+<<<<<<< HEAD
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
+=======
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+>>>>>>> parent of e9bcdcd... hw-8
 =======
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
@@ -209,9 +218,12 @@ header {
   -ms-flex-align: center;
   align-items: center;
 <<<<<<< HEAD
+<<<<<<< HEAD
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
+=======
+>>>>>>> parent of e9bcdcd... hw-8
 =======
 >>>>>>> parent of e9bcdcd... hw-8
   margin: 0px;
@@ -235,8 +247,11 @@ header {
   -ms-flex-align: center;
   align-items: center;
 <<<<<<< HEAD
+<<<<<<< HEAD
   -webkit-transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+=======
+>>>>>>> parent of e9bcdcd... hw-8
 =======
 >>>>>>> parent of e9bcdcd... hw-8
   padding: 32px 0px;
@@ -262,8 +277,11 @@ header {
   -ms-flex-align: center;
   align-items: center;
 <<<<<<< HEAD
+<<<<<<< HEAD
   -webkit-transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+=======
+>>>>>>> parent of e9bcdcd... hw-8
 =======
 >>>>>>> parent of e9bcdcd... hw-8
   padding: 32px 0px;
@@ -280,8 +298,13 @@ header {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 .header-contacts svg:hover,
 .header-contacts svg:focus {
+=======
+.header-contacts svg :hover,
+.header-contacts svg :focus {
+>>>>>>> parent of e9bcdcd... hw-8
 =======
 .header-contacts svg :hover,
 .header-contacts svg :focus {
@@ -306,9 +329,15 @@ header {
   -ms-flex-align: center;
   align-items: center;
 <<<<<<< HEAD
+<<<<<<< HEAD
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
+=======
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+>>>>>>> parent of e9bcdcd... hw-8
 =======
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
@@ -321,6 +350,7 @@ header {
   padding: 0px;
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 @media (max-width: 767px) {
   .container__button {
@@ -338,6 +368,8 @@ header {
   }
 }
 
+=======
+>>>>>>> parent of e9bcdcd... hw-8
 =======
 >>>>>>> parent of e9bcdcd... hw-8
 .button__item {
@@ -361,8 +393,11 @@ header {
   color: var(--main-white);
   cursor: pointer;
 <<<<<<< HEAD
+<<<<<<< HEAD
   -webkit-box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
     0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+=======
+>>>>>>> parent of e9bcdcd... hw-8
 =======
 >>>>>>> parent of e9bcdcd... hw-8
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
@@ -391,8 +426,11 @@ header {
   border-color: #eeeeee;
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 <<<<<<< HEAD
+<<<<<<< HEAD
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1),
     -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+=======
+>>>>>>> parent of e9bcdcd... hw-8
 =======
 >>>>>>> parent of e9bcdcd... hw-8
 }
@@ -426,8 +464,11 @@ header {
   -webkit-transform: translateY(101%);
   transform: translateY(101%);
 <<<<<<< HEAD
+<<<<<<< HEAD
   -webkit-transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+=======
+>>>>>>> parent of e9bcdcd... hw-8
 =======
 >>>>>>> parent of e9bcdcd... hw-8
   opacity: 0;
@@ -478,12 +519,15 @@ footer {
   display: -ms-flexbox;
   display: flex;
 <<<<<<< HEAD
+<<<<<<< HEAD
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
+=======
+>>>>>>> parent of e9bcdcd... hw-8
 =======
 >>>>>>> parent of e9bcdcd... hw-8
   margin: 0 auto;
@@ -498,6 +542,7 @@ footer {
   padding-bottom: 57px;
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 @media (max-width: 1199px) {
   .footer-container {
@@ -519,6 +564,8 @@ footer {
   }
 }
 
+=======
+>>>>>>> parent of e9bcdcd... hw-8
 =======
 >>>>>>> parent of e9bcdcd... hw-8
 .footer-contacts {
@@ -543,9 +590,13 @@ footer {
   line-height: 24px;
   letter-spacing: 0.03em;
 <<<<<<< HEAD
+<<<<<<< HEAD
 
   -webkit-transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+=======
+  text-align: left;
+>>>>>>> parent of e9bcdcd... hw-8
 =======
   text-align: left;
 >>>>>>> parent of e9bcdcd... hw-8
@@ -600,12 +651,15 @@ footer h3 {
   display: -ms-flexbox;
   display: flex;
 <<<<<<< HEAD
+<<<<<<< HEAD
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
+=======
+>>>>>>> parent of e9bcdcd... hw-8
 =======
 >>>>>>> parent of e9bcdcd... hw-8
   margin: 0 auto;
@@ -636,8 +690,13 @@ footer h3 {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 .social-links li:hover,
 .social-links li:focus {
+=======
+.link__item:hover,
+.link__item:focus {
+>>>>>>> parent of e9bcdcd... hw-8
 =======
 .link__item:hover,
 .link__item:focus {
@@ -655,6 +714,7 @@ footer h3 {
   -ms-flex-align: end;
   align-items: flex-end;
 <<<<<<< HEAD
+<<<<<<< HEAD
 }
 
 @media (max-width: 1199px) {
@@ -664,6 +724,8 @@ footer h3 {
     width: 450px;
     height: 156px;
   }
+=======
+>>>>>>> parent of e9bcdcd... hw-8
 =======
 >>>>>>> parent of e9bcdcd... hw-8
 }
@@ -768,6 +830,7 @@ footer h3 {
   height: 50px;
   padding: 10px 28px;
 <<<<<<< HEAD
+<<<<<<< HEAD
   -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   display: -webkit-box;
@@ -776,6 +839,8 @@ footer h3 {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+=======
+>>>>>>> parent of e9bcdcd... hw-8
 =======
 >>>>>>> parent of e9bcdcd... hw-8
   background-color: var(--hover);
@@ -802,6 +867,7 @@ footer h3 {
   margin-left: 10px;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 @media (max-width: 767px) {
   .mobile-footer {
@@ -824,6 +890,8 @@ footer h3 {
     margin: 60px 80px;
   }
 }
+=======
+>>>>>>> parent of e9bcdcd... hw-8
 =======
 >>>>>>> parent of e9bcdcd... hw-8
 /*# sourceMappingURL=portfolio.css.map */

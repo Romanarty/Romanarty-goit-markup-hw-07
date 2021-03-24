@@ -396,6 +396,7 @@ h3 {
   -ms-flex-align: center;
   align-items: center;
 <<<<<<< HEAD
+<<<<<<< HEAD
 
   -webkit-transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -420,6 +421,20 @@ h3 {
 >>>>>>> parent of e9bcdcd... hw-8
 }
 
+=======
+}
+
+.our-team {
+  background-color: var(--grey);
+  text-align: center;
+  display: block;
+  height: 708px;
+  padding: 0px;
+  margin: auto;
+  padding-bottom: 94px;
+}
+
+>>>>>>> parent of e9bcdcd... hw-8
 .team__photo {
   margin-left: 15px;
   margin-right: 15px;
@@ -533,6 +548,7 @@ h3 {
 .clients__logo:focus svg {
   fill: currentColor;
   color: var(--hover);
+<<<<<<< HEAD
 }
 
 .nav {
@@ -623,6 +639,8 @@ h3 {
   &:focus {
     fill: currentColor;
   }
+=======
+>>>>>>> parent of e9bcdcd... hw-8
 }
 
 footer {
@@ -638,12 +656,15 @@ footer {
   display: -ms-flexbox;
   display: flex;
 <<<<<<< HEAD
+<<<<<<< HEAD
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
+=======
+>>>>>>> parent of e9bcdcd... hw-8
 =======
 >>>>>>> parent of e9bcdcd... hw-8
   margin: 0 auto;
@@ -658,6 +679,7 @@ footer {
   padding-bottom: 57px;
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 @media (max-width: 1199px) {
   .footer-container {
@@ -679,6 +701,8 @@ footer {
   }
 }
 
+=======
+>>>>>>> parent of e9bcdcd... hw-8
 =======
 >>>>>>> parent of e9bcdcd... hw-8
 .footer-contacts {
@@ -704,9 +728,13 @@ footer {
   line-height: 24px;
   letter-spacing: 0.03em;
 <<<<<<< HEAD
+<<<<<<< HEAD
 
   -webkit-transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+=======
+  text-align: left;
+>>>>>>> parent of e9bcdcd... hw-8
 =======
   text-align: left;
 >>>>>>> parent of e9bcdcd... hw-8
@@ -761,12 +789,15 @@ footer h3 {
   display: -ms-flexbox;
   display: flex;
 <<<<<<< HEAD
+<<<<<<< HEAD
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
+=======
+>>>>>>> parent of e9bcdcd... hw-8
 =======
 >>>>>>> parent of e9bcdcd... hw-8
   margin: 0 auto;
@@ -811,6 +842,7 @@ footer h3 {
   -ms-flex-align: end;
   align-items: flex-end;
 <<<<<<< HEAD
+<<<<<<< HEAD
 }
 
 @media (max-width: 1199px) {
@@ -820,6 +852,8 @@ footer h3 {
     width: 450px;
     height: 156px;
   }
+=======
+>>>>>>> parent of e9bcdcd... hw-8
 =======
 >>>>>>> parent of e9bcdcd... hw-8
 }
@@ -924,6 +958,7 @@ footer h3 {
   height: 50px;
   padding: 10px 28px;
 <<<<<<< HEAD
+<<<<<<< HEAD
   -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   display: -webkit-box;
@@ -934,6 +969,8 @@ footer h3 {
   align-items: center;
 =======
 >>>>>>> parent of e9bcdcd... hw-8
+=======
+>>>>>>> parent of e9bcdcd... hw-8
   background-color: var(--hover);
   color: var(--main-white);
   -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -941,6 +978,7 @@ footer h3 {
   cursor: pointer;
   border: none;
   border-radius: 4px;
+<<<<<<< HEAD
 <<<<<<< HEAD
   min-width: 200px;
   height: 50px;
@@ -953,6 +991,11 @@ footer h3 {
   font-weight: bold;
   font-size: 16px;
   line-height: 30px;
+=======
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 30px;
+>>>>>>> parent of e9bcdcd... hw-8
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -968,6 +1011,7 @@ footer h3 {
   margin-left: 10px;
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 @media (max-width: 767px) {
   .mobile-footer {
@@ -993,6 +1037,8 @@ footer h3 {
 
 =======
 >>>>>>> parent of e9bcdcd... hw-8
+=======
+>>>>>>> parent of e9bcdcd... hw-8
 .backdrop {
   position: fixed;
   top: 0;
@@ -1015,10 +1061,13 @@ footer h3 {
   -webkit-transform: translate(-50%, -50%) scale(1.1);
   transform: translate(-50%, -50%) scale(1.1);
 <<<<<<< HEAD
+<<<<<<< HEAD
   padding: 40px;
   max-width: 528px;
   max-height: 609px;
 =======
+=======
+>>>>>>> parent of e9bcdcd... hw-8
   min-width: 528px;
   min-height: 581px;
 >>>>>>> parent of e9bcdcd... hw-8
@@ -1205,8 +1254,11 @@ label p {
   -webkit-transform: translateY(-50%);
   transform: translateY(-50%);
 <<<<<<< HEAD
+<<<<<<< HEAD
   -webkit-transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+=======
+>>>>>>> parent of e9bcdcd... hw-8
 =======
 >>>>>>> parent of e9bcdcd... hw-8
 }
@@ -1256,12 +1308,21 @@ label p {
   display: -ms-flexbox;
   display: flex;
 <<<<<<< HEAD
+<<<<<<< HEAD
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
+=======
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+>>>>>>> parent of e9bcdcd... hw-8
 =======
   -webkit-box-pack: center;
   -ms-flex-pack: center;
@@ -1292,13 +1353,19 @@ label p {
   -ms-flex-align: center;
   align-items: center;
 <<<<<<< HEAD
+<<<<<<< HEAD
   background-color: var(--hover);
   color: var(--main-white);
 =======
+=======
+>>>>>>> parent of e9bcdcd... hw-8
   text-align: center;
   min-width: 200px;
   height: 50px;
   padding: 10px 55px;
+<<<<<<< HEAD
+>>>>>>> parent of e9bcdcd... hw-8
+=======
 >>>>>>> parent of e9bcdcd... hw-8
   cursor: pointer;
   border: none;
@@ -1312,7 +1379,10 @@ label p {
   -webkit-filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 <<<<<<< HEAD
+<<<<<<< HEAD
   padding: 10px 55px;
+=======
+>>>>>>> parent of e9bcdcd... hw-8
 =======
 >>>>>>> parent of e9bcdcd... hw-8
 }
@@ -1363,12 +1433,16 @@ h1 {
 
 .button {
 <<<<<<< HEAD
+<<<<<<< HEAD
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+=======
+  display: inline-block;
+>>>>>>> parent of e9bcdcd... hw-8
 =======
   display: inline-block;
 >>>>>>> parent of e9bcdcd... hw-8
@@ -1383,6 +1457,7 @@ h1 {
   min-width: 200px;
   font-size: 16px;
 <<<<<<< HEAD
+<<<<<<< HEAD
   line-height: 30px;
   text-align: center;
   letter-spacing: 0.06em;
@@ -1393,12 +1468,17 @@ h1 {
   font-weight: bold;
   letter-spacing: 0, 06em;
 >>>>>>> parent of e9bcdcd... hw-8
+=======
+  font-weight: bold;
+  letter-spacing: 0, 06em;
+>>>>>>> parent of e9bcdcd... hw-8
   padding: 10px 32px;
   margin-bottom: 200px;
   font-weight: 700;
   line-height: 30px;
   text-align: center;
 }
+<<<<<<< HEAD
 <<<<<<< HEAD
 
 @media screen and (min-width: 480px) and (max-width: 767px) {
@@ -1527,6 +1607,8 @@ h1 {
     background-image: url("../../images/banner/banner2x-tablet@2x.jpeg");
   }
 }
+=======
+>>>>>>> parent of e9bcdcd... hw-8
 =======
 >>>>>>> parent of e9bcdcd... hw-8
 /*# sourceMappingURL=main.css.map */
